@@ -2,8 +2,8 @@ def consolidate_cart(cart)
   # cart = [find_item('TEMPEH'), find_item('PEANUTBUTTER'), find_item('ALMONDS')]
   #     result = consolidate_cart(cart)
   #     result.each do |item, attributes|
-  #       expect(attributes.keys).to include(:count)
-  #       expect(attributes[:count]).to eq(1)
+  #       attributes.keys.include?(:count)
+  #       attributes[:count] == eq(1)
   #     end
 end
 
